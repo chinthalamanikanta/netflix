@@ -19,7 +19,7 @@ pipeline {
 
         stage('Checkout from Git') {
             steps {
-                git branch: 'main', url: 'https://github.com/thushi99/Netflix-DevSecOps-Project.git'
+                git branch: 'main', url: 'https://github.com/chinthalamanikanta/netflix.git'
             }
         }
 
